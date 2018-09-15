@@ -130,6 +130,7 @@ bot.run(TOKEN)
 Save the edits you've made in `nano` with `CTRL+X` and `y`.
 
 Now you can run your bot! `$ python3 bot.py`
+You can also run using `$ nohup python3 -u ~/fenrirbot/bot.py &`. `nohup` will allow the task to continue running after you terminate your SSH connection. `&` is going to run the task in the background to keep the terminal open for use. There is also an issue where the script auto-terminates after 2-3 hours, I've opened [Issue 1](https://github.com/sethcottle/FenrirBot/issues/1) but I haven't had time to work on it. Learn more in the issue on setting up a Cron job to keep the bot running.
 
 #### Give it a whirl
 Now your bot should show an online status.
